@@ -1,11 +1,10 @@
 CREATE DATABASE banco_de_dados_livraria;
 \c banco_de_dados_livraria;
 
-CREATE TABLE autores (
+CREATE TABLE authors (
     "id" SERIAL PRIMARY KEY,
     "name" VARCHAR(200) NOT NULL,
     "bio" TEXT NOT NULL
-
 );
 
 CREATE TABLE books (
@@ -15,6 +14,13 @@ CREATE TABLE books (
     "createdAt" TIMESTAMP NOT NULL,
     "updatedAt" TIMESTAMP NOT NULL,
     "autorId" INTEGER NOT NULL,
-    FOREIGN KEY("autorId") REFERENCES 
+    FOREIGN KEY("autorId") REFERENCES autores("id") ON DELETE CASCADE
+);
 
+CREATE TABLE contact_infos (
+    "id" SERIAL PRIMARY KEY,
+    "phone" VARCHAR(20),
+    "email" VARCHAR (200) NOT NULL,
+    "authorId" INTEGER UNIQUE NOT NULL,
+    FOREIGN KEY ("authorId") REFERENCES authors("id") ON DELETE CASCADE
 );
