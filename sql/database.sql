@@ -24,3 +24,11 @@ CREATE TABLE contact_infos (
     "authorId" INTEGER UNIQUE NOT NULL,
     FOREIGN KEY ("authorId") REFERENCES authors("id") ON DELETE CASCADE
 );
+
+CREATE TABLE books_categories (
+    "id" SERIAL PRIMARY KEY,
+    "bookId" INTEGER UNIQUE NOT NULL,
+    "categoryId" INTEGER UNIQUE NOT NULL,
+    FOREIGN KEY ("bookId") REFERENCES books("id") ON DELETE CASCADE
+);
+
