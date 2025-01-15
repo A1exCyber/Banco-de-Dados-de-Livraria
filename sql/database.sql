@@ -30,5 +30,16 @@ CREATE TABLE books_categories (
     "bookId" INTEGER UNIQUE NOT NULL,
     "categoryId" INTEGER UNIQUE NOT NULL,
     FOREIGN KEY ("bookId") REFERENCES books("id") ON DELETE CASCADE
+    FOREIGN KEY ("categoryId") REFERENCES categories("id") ON DELETE CASCADE
 );
+
+CREATE TABLE categories (
+    "id" SERIAL PRIMARY KEY,
+    "name" VARCHAR(100) NOT NULL,
+    "createdAt" TIMESTAMP NOT NULL,
+    "updatedAt" TIMESTAMP NOT NULL
+);
+
+
+
 
