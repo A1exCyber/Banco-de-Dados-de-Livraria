@@ -21,3 +21,9 @@ Crie uma pasta nomeada "sql" em seu projeto, dentro desta pasta crie um arquivo 
 - Na relação entre "authors" e "contact_infos", a cláusula "ON DELETE" deve ser definida como "CASCADE". Assim, se um autor for excluído, as informações de contato relacionadas a ele também serão excluídas.
   
 Após escrever todos os comandos de criação de tabela, teste cada um deles no terminal para garantir que não há erros sintáticos e que as relações estejam configuradas corretamente.
+
+## 2.2 Inserindo dados
+
+Crie um arquivo chamado "insertData.sql" e escreva um comando SQL para cada inserção de dados mencionada abaixo.
+
+Cada comando de inserção deve ser escrito com a cláusula "RETURNING".
