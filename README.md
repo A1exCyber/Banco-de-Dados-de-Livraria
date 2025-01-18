@@ -29,6 +29,8 @@ Crie um arquivo chamado "insertData.sql" e escreva um comando SQL para cada inse
 Cada comando de inserção deve ser escrito com a cláusula "RETURNING".
 ### 2.2.1 Autores
 
+Insira os seguintes autores na tabela "authors":
+
 | name  | bio    |
 |------|---------|
 | Eiichiro Oda | Eiichiro Oda em um mangaká conhecido pela criação do mangá One Piece.|
