@@ -8,13 +8,13 @@ CREATE TABLE authors (
 );
 
 CREATE TABLE books (
-    "id" SERIAL PRIMARY KEY;
+    "id" SERIAL PRIMARY KEY,
     "name" VARCHAR (200) NOT NULL,
-    "pages" INTEGER NOT NULL,
+    "pages" INTEGER NOT NULL,   
     "createdAt" TIMESTAMP NOT NULL,
     "updatedAt" TIMESTAMP NOT NULL,
     "autorId" INTEGER NOT NULL,
-    FOREIGN KEY("autorId") REFERENCES autores("id") ON DELETE CASCADE
+    FOREIGN KEY("autorId") REFERENCES authors("id") ON DELETE CASCADE
 );
 
 CREATE TABLE contact_infos (
@@ -25,14 +25,6 @@ CREATE TABLE contact_infos (
     FOREIGN KEY ("authorId") REFERENCES authors("id") ON DELETE CASCADE
 );
 
-CREATE TABLE books_categories (
-    "id" SERIAL PRIMARY KEY,
-    "bookId" INTEGER UNIQUE NOT NULL,
-    "categoryId" INTEGER UNIQUE NOT NULL,
-    FOREIGN KEY ("bookId") REFERENCES books("id") ON DELETE CASCADE
-    FOREIGN KEY ("categoryId") REFERENCES categories("id") ON DELETE CASCADE
-);
-
 CREATE TABLE categories (
     "id" SERIAL PRIMARY KEY,
     "name" VARCHAR(100) NOT NULL,
@@ -40,6 +32,13 @@ CREATE TABLE categories (
     "updatedAt" TIMESTAMP NOT NULL
 );
 
+CREATE TABLE books_categories (
+    "id" SERIAL PRIMARY KEY,
+    "bookId" INTEGER UNIQUE NOT NULL,
+    "categoryId" INTEGER UNIQUE NOT NULL,
+    FOREIGN KEY ("bookId") REFERENCES books("id") ON DELETE CASCADE,
+    FOREIGN KEY ("categoryId") REFERENCES categories("id") ON DELETE CASCADE
+);
 
 
 
