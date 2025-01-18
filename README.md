@@ -27,3 +27,10 @@ Após escrever todos os comandos de criação de tabela, teste cada um deles no 
 Crie um arquivo chamado "insertData.sql" e escreva um comando SQL para cada inserção de dados mencionada abaixo.
 
 Cada comando de inserção deve ser escrito com a cláusula "RETURNING".
+### 2.2.1 Autores
+
+| name  | bio    |
+|------|---------|
+| Eiichiro Oda | Eiichiro Oda em um mangaká conhecido pela criação do mangá One Piece.|
+| J. K. Rowling | J. K. Rowling é uma escritora, roteirista e produtora cinematográfica britânica, notória por escrever a série de livros Harry Potter.  |
+| Osvaldo Silva | Autor e compositor brasileiro. |
