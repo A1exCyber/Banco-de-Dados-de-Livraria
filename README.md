@@ -36,3 +36,13 @@ Insira os seguintes autores na tabela "authors":
 | Eiichiro Oda | Eiichiro Oda em um mangaká conhecido pela criação do mangá One Piece.|
 | J. K. Rowling | J. K. Rowling é uma escritora, roteirista e produtora cinematográfica britânica, notória por escrever a série de livros Harry Potter.  |
 | Osvaldo Silva | Autor e compositor brasileiro. |
+
+### 2.2.2 Livros
+Insira os seguintes livros na tabela "books":
+
+| name | pages | createdAt | updatedAt | authorId |
+|------|-------|-----------|-----------|----------|
+| Harry Potter| 325 | data atual | data atual | 2 (J. K. Rowling) |
+| Jogos Vorazes | 276 | data atual |
+| One Piece - Volume 1 | 120 | data atual |
+| One Piece - Volume 2 | 137 | data atual |
