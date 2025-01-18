@@ -43,6 +43,6 @@ Insira os seguintes livros na tabela "books":
 | name | pages | createdAt | updatedAt | authorId |
 |------|-------|-----------|-----------|----------|
 | Harry Potter| 325 | data atual | data atual | 2 (J. K. Rowling) |
-| Jogos Vorazes | 276 | data atual |
-| One Piece - Volume 1 | 120 | data atual |
-| One Piece - Volume 2 | 137 | data atual |
+| Jogos Vorazes | 276 | data atual | data atual | null |
+| One Piece - Volume 1 | 120 | data atual | data atual | null |
+| One Piece - Volume 2 | 137 | data atual | data atual | null |
