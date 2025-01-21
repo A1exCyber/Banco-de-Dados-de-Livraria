@@ -6,3 +6,7 @@ VALUES ('J. K. Rowling', 'J. K. Rowling é uma escritora,
             roteirista e produtora cinematográfica britânica, 
                     notória por escrever a série de livros Harry Potter.');
 
+INSERT INTO authors ("name", "bio")
+VALUES ('Osvaldo Silva', 'Autor e compositor brasileiro.');
+
+
