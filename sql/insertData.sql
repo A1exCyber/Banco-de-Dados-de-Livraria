@@ -13,6 +13,18 @@ VALUES ('Osvaldo Silva', 'Autor e compositor brasileiro.');
 INSERT INTO books ("name", "pages", "createdAt", "updatedAt", "autorId")
 VALUES ('Harry Potter', '325', '2025-01-22', '2025-01-22', 2);
 
+INSERT INTO books ("name", "pages", "createdAt", "updatedAt", "autorId")
+VALUES ('Jogos Vorazes', '276', '2025-01-23', '2025-01-23', null);
+
+INSERT INTO books ("name", "pages", "createdAt", "updatedAt", "autorId")
+VALUES ('One Piece - Volume 1', '120', '2025-01-23', '2025-01-23', null);
+
+INSERT INTO books ("name", "pages", "createdAt", "updatedAt", "autorId")
+VALUES ('One Piece - Volume 2', '137', '2025-01-23', '2025-01-23', null);
+
+
+
+
 
         
 
