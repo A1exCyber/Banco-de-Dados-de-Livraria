@@ -46,3 +46,13 @@ Insira os seguintes livros na tabela "books":
 | Jogos Vorazes | 276 | data atual | data atual | null |
 | One Piece - Volume 1 | 120 | data atual | data atual | null |
 | One Piece - Volume 2 | 137 | data atual | data atual | null |
+
+### 2.2.3 Categorias
+
+Insira as seguintes categorias na tabela "categories":
+
+| name | createdAt | updatedAt |
+|------|-----------|-----------|
+
+
+
