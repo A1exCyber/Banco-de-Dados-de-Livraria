@@ -53,6 +53,8 @@ Insira as seguintes categorias na tabela "categories":
 
 | name | createdAt | updatedAt |
 |------|-----------|-----------|
-
+| Mangá |data atual|data atual|
+| Aventura |data atual|data atual|
+| Fantasia |data atual|data atual|
 
 
