@@ -6,8 +6,12 @@ VALUES ('J. K. Rowling', 'J. K. Rowling é uma escritora,
             roteirista e produtora cinematográfica britânica, 
                     notória por escrever a série de livros Harry Potter.');
 
-        INSERT INTO authors ("name", "bio")
-        VALUES ('Osvaldo Silva', 'Autor e compositor brasileiro.');
+INSERT INTO authors ("name", "bio")
+VALUES ('Osvaldo Silva', 'Autor e compositor brasileiro.');
+
+
+INSERT INTO books ("name", "pages", "createdAt", "updatedAt", "autorId")
+VALUES ('Harry Potter', '325', '2025-01-22', '2025-01-22', 2);
 
 
         
