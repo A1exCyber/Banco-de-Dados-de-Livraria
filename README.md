@@ -57,4 +57,5 @@ Insira as seguintes categorias na tabela "categories":
 | Aventura |data atual|data atual|
 | Fantasia |data atual|data atual|
 
+### 2.2.4 Relacionamentos entre livros e categorias
 
