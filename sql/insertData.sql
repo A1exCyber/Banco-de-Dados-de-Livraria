@@ -24,16 +24,16 @@ INSERT INTO books ("name", "pages", "createdAt", "updatedAt", "autorId")
 VALUES ('One Piece - Volume 2', '137', '2025-01-23', '2025-01-23', null);
 
 /* 2.2.3 Categorias*/
-INSERT INTO categories ("name","createdAt","createdAt")
+INSERT INTO categories ("name","createdAt", "updatedAt")
+VALUES ('Mangá','2025-01-24', '2025-01-24');
+
+INSERT INTO categories ("name","createdAt","updatedAt")
 VALUES ('Mangá','2025-01-24','2025-01-24');
 
-INSERT INTO categories ("name","createdAt","createdAt")
+INSERT INTO categories ("name","createdAt","updatedAt")
 VALUES ('Mangá','2025-01-24','2025-01-24');
 
-INSERT INTO categories ("name","createdAt","createdAt")
-VALUES ('Mangá','2025-01-24','2025-01-24');
 
-        
 
 /*Para eliminar um registro que foi inserido em uma tabela no banco de dados, 
 você deve usar o comando SQL DELETE. Para isso, é essencial identificar o registro 
@@ -63,4 +63,11 @@ WHERE name = 'Osvaldo Silva' AND bio = 'Autor e compositor brasileiro.';
 Se você acidentalmente deletar algo errado, certifique-se de ter backups do banco 
 de dados para recuperar as informações.*/
 
+/*Atualizar uma coluna :
+
+UPDATE nome_da_tabela
+SET nome_da_coluna = 'novo_valor'
+WHERE id = 1;
+
+*/
 
