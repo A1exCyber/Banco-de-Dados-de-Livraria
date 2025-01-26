@@ -40,6 +40,13 @@ VALUES ('1', '2');
 INSERT INTO books_categories ("bookId", "categoryId")
 VALUES ('5', '2');
 
+INSERT INTO books_categories ("bookId", "categoryId")
+VALUES ('6', '2');
+
+INSERT INTO books_categories ("bookId", "categoryId")
+VALUES ('7', '2');
+
+
 
 /*Atualizar uma coluna :
 
@@ -47,5 +54,13 @@ UPDATE nome_da_tabela
 SET nome_da_coluna = 'novo_valor'
 WHERE id = 1;
 
+*/
+
+
+/* Como retirar o UNIQUE de um parametro de uma tabela:
+ALTER TABLE books_categories DROP CONSTRAINT "books_categories_bookId_key";
+
+use o comando abaixo para saber o "books_categories_bookId_key"
+SELECT conname FROM pg_constraint WHERE conrelid = 'books_categories'::regclass AND contype = 'u';
 */
 
