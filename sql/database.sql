@@ -34,8 +34,8 @@ CREATE TABLE categories (
 
 CREATE TABLE books_categories (
     "id" SERIAL PRIMARY KEY,
-    "bookId" INTEGER UNIQUE NOT NULL,
-    "categoryId" INTEGER UNIQUE NOT NULL,
+    "bookId" INTEGER NOT NULL,
+    "categoryId" INTEGER NOT NULL,
     FOREIGN KEY ("bookId") REFERENCES books("id") ON DELETE CASCADE,
     FOREIGN KEY ("categoryId") REFERENCES categories("id") ON DELETE CASCADE
 );

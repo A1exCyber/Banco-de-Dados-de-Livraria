@@ -28,10 +28,18 @@ INSERT INTO categories ("name","createdAt", "updatedAt")
 VALUES ('Mangá','2025-01-24', '2025-01-24');
 
 INSERT INTO categories ("name","createdAt","updatedAt")
-VALUES ('Mangá','2025-01-24','2025-01-24');
+VALUES ('Aventura','2025-01-24','2025-01-24');
 
 INSERT INTO categories ("name","createdAt","updatedAt")
-VALUES ('Mangá','2025-01-24','2025-01-24');
+VALUES ('Fantasia','2025-01-24','2025-01-24');
+
+/*books_categories*/
+INSERT INTO books_categories ("bookId", "categoryId")
+VALUES ('1', '2');
+
+INSERT INTO books_categories ("bookId", "categoryId")
+VALUES ('5', '2');
+
 
 /*Atualizar uma coluna :
 
