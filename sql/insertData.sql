@@ -34,6 +34,7 @@ INSERT INTO categories ("name","createdAt","updatedAt")
 VALUES ('Fantasia','2025-01-24','2025-01-24');
 
 /*books_categories*/
+/*categoria aventura: */
 INSERT INTO books_categories ("bookId", "categoryId")
 VALUES ('1', '2');
 
@@ -45,6 +46,26 @@ VALUES ('6', '2');
 
 INSERT INTO books_categories ("bookId", "categoryId")
 VALUES ('7', '2');
+
+/*categoria fantasia: */
+INSERT INTO books_categories ("bookId", "categoryId")
+VALUES ('1', '3');
+
+INSERT INTO books_categories ("bookId", "categoryId")
+VALUES ('6', '3');
+
+INSERT INTO books_categories ("bookId", "categoryId")
+VALUES ('7', '3');
+
+/*categoria mangá: */
+INSERT INTO books_categories ("bookId", "categoryId")
+VALUES ('6', '1'), ('7', '1') ;
+
+/*2.2.5 Relacionamento entre autores e dados de contato*/
+
+INSERT INTO contact_infos ("phone", "email", "authorId")
+VALUES ('(44) 99123-4567', 'osvaldo@osvaldocompany.com', 3);
+
 
 
 
