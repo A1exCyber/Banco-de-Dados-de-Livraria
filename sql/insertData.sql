@@ -61,10 +61,17 @@ VALUES ('7', '3');
 INSERT INTO books_categories ("bookId", "categoryId")
 VALUES ('6', '1'), ('7', '1') ;
 
-/*2.2.5 Relacionamento entre autores e dados de contato*/
 
+/*2.2.5 Relacionamento entre autores e dados de contato*/
 INSERT INTO contact_infos ("phone", "email", "authorId")
 VALUES ('(44) 99123-4567', 'osvaldo@osvaldocompany.com', 3);
+
+
+
+
+
+
+
 
 
 
