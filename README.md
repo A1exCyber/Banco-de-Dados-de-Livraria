@@ -59,3 +59,11 @@ Insira as seguintes categorias na tabela "categories":
 
 ### 2.2.4 Relacionamentos entre livros e categorias
 
+Registre os seguintes relacionamentos na tabela "books_categories":
+
+Na categoria "Aventura", deverão estar os livros:
+- Harry Potter
+- Jogos Vorazes
+- One Piece - Volume 1
+- One Piece - Volume 2
+
