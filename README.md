@@ -67,3 +67,17 @@ Na categoria "Aventura", deverão estar os livros:
 - One Piece - Volume 1
 - One Piece - Volume 2
 
+Na categoria "Fantasia", deverão os livros:
+
+- Harry Potter
+- One Piece - Volume 1
+- One Piece - Volume 2
+- Na categoria "Mangá", deverá estar o livro:
+
+- One Piece - Volume 1
+- One Piece - Volume 2
+
+### 2.2.5 Relacionamento entre autores e dados de contato
+
+Na tabela "contact_infos," insira as seguintes informações:
+
