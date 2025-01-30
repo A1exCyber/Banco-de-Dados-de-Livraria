@@ -81,3 +81,6 @@ Na categoria "Fantasia", deverão os livros:
 
 Na tabela "contact_infos," insira as seguintes informações:
 
+| phone | email | authorId |
+|-------|-------|----------|
+| (44) 99123-4567 | osvaldo@osvaldocompany.com | 3 (Osvaldo Silva) |
