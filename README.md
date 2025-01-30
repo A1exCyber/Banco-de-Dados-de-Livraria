@@ -84,3 +84,17 @@ Na tabela "contact_infos," insira as seguintes informações:
 | phone | email | authorId |
 |-------|-------|----------|
 | (44) 99123-4567 | osvaldo@osvaldocompany.com | 3 (Osvaldo Silva) |
+
+### 2.3 Lendo dados
+
+  Em um arquivo chamado "selectData.sql", escreva os comandos SQL das consultas solicitadas abaixo:
+
+- Leitura de todos os livros.
+- Leitura de todos os livros da categoria "Fantasia".
+- Leitura de todos os livros com suas respectivas categorias, renomeando colunas para evitar conflito entre chaves.
+- Leitura do livro "Harry Potter" com as informações do autor, renomeando colunas para evitar conflito entre chaves.
+### 2.4 Atualizando dados
+  Em um arquivo chamado "updateData.sql", escreva os comandos das atualizações solicitadas abaixo:
+
+- Atualização do nome do livro "Harry Potter" para "Harry Potter e o Prisioneiro de Azkaban".
+- Atualização de ambos os volumes de One Piece, relacionando o autor Eiichiro Oda com ambos.
