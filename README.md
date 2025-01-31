@@ -98,3 +98,12 @@ Na tabela "contact_infos," insira as seguintes informações:
 
 - Atualização do nome do livro "Harry Potter" para "Harry Potter e o Prisioneiro de Azkaban".
 - Atualização de ambos os volumes de One Piece, relacionando o autor Eiichiro Oda com ambos.
+
+### 2.5 Excluindo de dados
+Em um arquivo chamado "deleteData.sql", escreva o comando de exclusão abaixo:
+
+- Exclusão do livro "Jogos Vorazes".
+- Exclusão da autora "J. K. Rowling".
+- Exclusão do autor "Osvaldo Silva".
+### 3 Finalização
+  Por fim, execute todos os comandos na ordem especificada. Se tudo for feito corretamente e não houver erros sintáticos, isso indicará que a entrega foi realizada com êxito.
