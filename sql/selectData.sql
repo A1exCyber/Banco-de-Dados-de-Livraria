@@ -2,7 +2,8 @@
 SELECT * FROM books;
 
 /*Leitura de todos os livros da categoria "Fantasia".*/
-SELECT books.* 
+SELECT books.*
 FROM books
-INNER JOIN categories ON books.id = ?
+INNER JOIN categories ON categories.id = books_categories.bookId
+INNER JOIN books_categories ON books_categories.categoryId = categories.id;
 
