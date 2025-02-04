@@ -19,4 +19,6 @@ INNER JOIN categories ON books_categories."categoryId" = categories.id;
 /*Leitura do livro "Harry Potter" com as informações do autor, 
 renomeando colunas para evitar conflito entre chaves.*/
 
-
+SELECT books.name AS book_name, authors.name AS author_name, authors.bio
+FROM books
+INNER JOIN authors ON books."autorId"= authors.id;
