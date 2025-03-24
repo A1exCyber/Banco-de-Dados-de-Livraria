@@ -13,8 +13,8 @@ CREATE TABLE books (
     "pages" INTEGER NOT NULL,   
     "createdAt" TIMESTAMP NOT NULL,
     "updatedAt" TIMESTAMP NOT NULL,
-    "autorId" INTEGER NOT NULL,
-    FOREIGN KEY("autorId") REFERENCES authors("id") ON DELETE CASCADE
+    "autorId" INTEGER,
+    FOREIGN KEY("autorId") REFERENCES authors("id") ON DELETE SET NULL
 );
 
 CREATE TABLE contact_infos (
